@@ -51,7 +51,7 @@ const Intro = () => {
             <span className='hello'>Hello,</span>
             <span className='introText'>I'm <span className='introName'>Ahmed</span><br /> {text}</span>
             <p className='introPara'>I'm a skilled and highly motivated web developper.</p>
-            <Link><button className='btn'><img src={btnImg} alt=''className='btnImg'/>Hire Me</button></Link>
+            <Link activeClass='active' to='contact' spy={true} smooth={true} offset={-50} duration={500}><button className='btn'><img src={btnImg} alt=''className='btnImg'/>Hire Me</button></Link>
         </div>
         <img src={bg} alt='' className='bg'/>
     </section>

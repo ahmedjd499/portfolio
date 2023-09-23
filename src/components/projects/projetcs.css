@@ -46,12 +46,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgb(182, 224, 224);
-    border: 2px solid slateblue;
-    border-radius: 2rem;
+    background: rgb(50, 50, 50);    
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(252, 252, 252, 0.22) 0px 15px 12px;
+    border-radius: 0.5rem;
     width: 40rem;
     height: 35rem;
-    color: black;
     text-align: center;
 
 }
@@ -61,11 +60,10 @@
 
 }
 .projectImg{
-    object-fit: cover;
+    object-fit: scale-down;
     width: 40rem;
     height: 20rem;
     padding: 15px;
-    border-radius: 2rem;
 }
 
 .projectName{
@@ -94,6 +92,13 @@
     background-color: burlywood;
     border-radius: 1rem;
 }
+
+
+
+
+
+
+
 @media  screen and (max-width:780px){
     .project{
         width: 35rem;
